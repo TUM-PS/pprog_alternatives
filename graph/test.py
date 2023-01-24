@@ -2,9 +2,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 from tqdm import tqdm
 def load_graph():
-    G = np.load("../data/graph.npy")
-    I = np.load("../data/i.npy")
-    C = np.load("../data/locs.npy")
+    # G = np.load("../data/graph.npy")      # for some reason in VSCode one does not need the upwards-dir ../
+    G = np.load("data/graph.npy")
+    I = np.load("data/i.npy")
+    C = np.load("data/locs.npy")
     return G,I,C
 
 
